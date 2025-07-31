@@ -1,0 +1,37 @@
+.marquee-container {
+  background: #1a181e;
+  overflow: hidden;
+  height: 16vh;
+}
+.marquee-track {
+  display: flex;
+  width: fit-content;
+  gap: 4rem;
+  margin-top: 5vh ;
+  
+}
+
+.marquee-left {
+  animation: marquee-left 30s linear infinite;
+}
+
+.scroll-card {
+  min-width: 18vw;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.scroll-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.marquee-container:hover .marquee-left { 
+  animation-play-state: paused;
+}

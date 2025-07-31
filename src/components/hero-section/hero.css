@@ -1,0 +1,34 @@
+main{
+    display: flex;
+    padding-left: 8vw;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("https://mydukaan.io/_next/static/media/banner-home-main.ebd707dd321420dd97b2e08e0aa39020.webp");
+    position: relative;
+    height: 100vh;
+}
+ .hero-left{ 
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.hero-left h1{
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+.hero-left p{
+    margin-block: 1.5rem;
+    color: #4d4d4d;
+    font-size: 1.2rem;
+}
+.available{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.hero-right{
+  width: 80%;
+}
+.hero-right img{
+    width:100%;
+}  
