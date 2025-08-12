@@ -1,6 +1,6 @@
 import React from 'react'
 import "./hero.css"
-import PrimaryBtn from '../Header/PrimaryBtn';
+import PrimaryBtn from '../header/PrimaryBtn';
 
 function Hero() {
   return <main>
