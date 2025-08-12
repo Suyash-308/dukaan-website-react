@@ -1,0 +1,31 @@
+.E-Commerce{
+    background-color: #FAB73B1A;
+}
+.heading {
+    text-align: center;
+}
+.heading h2{
+    font-size: 2rem;
+    margin-top: 8rem;
+}
+.heading p{
+    font-size: 1.2rem;
+    color: #4D4D4D;
+    margin-block:1rem ;
+}
+.card-section{
+    padding: var(--common-padding);
+}
+.E-Card{
+    background-color: aqua;
+    height: auto;
+    width: 17rem;
+    text-align: center;
+}
+.E-Card img{
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}

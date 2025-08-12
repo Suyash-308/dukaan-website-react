@@ -1,7 +1,9 @@
 import './App.css'
+import Dukaan from './components/dukaan/Dukaan'
 import Header from './components/header/header'
 import Hero from './components/hero-section/Hero'
 import Marquee from './components/marquee/Marquee'
+import ECommerce from './components/section-E commerce/ECommerce'
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
     <Header/>
     <Hero/>
     <Marquee/>
+    <Dukaan/>
+    <ECommerce/>
  
 
     </>

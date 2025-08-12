@@ -123,7 +123,7 @@ function Hero() {
     </div>
     
     <div className="hero-right">
-        <img src="https://mydukaan.io/_next/static/images/hero_image_shadow-new-ef38d2da7a63bb815162083389e05f32.webp" alt="" srcset="" />
+        <img src="https://mydukaan.io/_next/static/images/hero_image_shadow-new-ef38d2da7a63bb815162083389e05f32.webp" alt=""  />
 
     </div>
   </main>

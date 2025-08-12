@@ -13,8 +13,8 @@ function Header() {
             </a>
             <ul>
                 {links.map((link)=>{
-                    return ( <li>
-                    <a href="/">{link}</a>
+                    return ( <li key={link}>
+                    <a href="/" >{link}</a>
                 </li>
                 );
                 })}

@@ -1,0 +1,39 @@
+.dukaan h2{
+    color: #1a181e;
+    font-size: 32px;
+    text-align: center;
+    margin: 5rem 12vw;
+}
+.dukaan {
+  padding: var(--common-padding);
+}
+
+
+.dukkan-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.dukaan-left,
+.dukaan-right {
+  width: 50%;
+}
+
+.dukaan-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.dukaan-right h3 {
+  font-size: 1.8rem;
+  color: #1a181e;
+  padding-block: 1.2rem ;
+}
+
+.dukaan-right p {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+} 
